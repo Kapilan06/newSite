@@ -13,24 +13,24 @@
     <ul>
     <li><a href="array.php"> Simple array and printout</a></li>
     <li><a href="forloop.php"> Simple loop</a></li>
-    <li><a href="dowhile.php"> Simple do while</a></li>
-    <li><a href="while.php"> Simple while</a></li>
+    <li><a href="dowhileWhileloop.php"> Simple do while</a></li>
     <li><a href="ifstatement.php"> Simple if statements</a></li>
     <li><a href="switchstatement.php"> Simple swictch statement</a></li>
+    <li><a href="stringmanip.php"> String manipulation </a></li>
     </ul>
     <?php
-        echo "Hello PHP!!!";
+        echo "<b>PHP is a general-purpose scripting language geared towards web development.";
+        echo "</b>It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. ";
         echo '<br/>';
-        echo "next line ";
-        echo "next line continue";
+        
     ?>
     <?php
         $name = "Kirubanandan kapilan";
         echo $name;
-        $age = "21";
-        echo '<h1> my Name is : '.$name. ' </h1>';
-        echo '<h1> Age is : '.$age. ' </h1>';
-        echo "<h1> my name is : $name </h1>"
+        $from = "Colombo";
+        echo '<h3> I am '.$name. ' </h1>';
+        echo '<h3> From '.$from. ' </h1>';
+        
     ?>
 </body>
 </html>
