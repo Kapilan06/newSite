@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer - String manipulation </title>
-</head>
-<body>
+<?php
+    $title="String Manipulation";
+    include 'includes/header.php'
+
+?>
     <h1>PHP String manipulation</h1>
     <?php
     // Concatenation of strings
@@ -46,5 +42,7 @@
     echo 'Replace string with another: '.str_replace("Stand with","sit on",$phrase2).'<br/>';
 
     ?>
-</body>
-</html>
+<?php
+    require 'includes/footer.php'
+
+?>

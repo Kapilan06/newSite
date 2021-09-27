@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer - If statements</title>
-</head>
-<body>
+<?php
+    $title="if statements";
+    include 'includes/header.php'
+
+?>
     <h3 style="color: red;"></h3>
     <?php 
         echo '<h2> If statements </h2>';
@@ -33,5 +29,7 @@
         }
 
     ?>
-</body>
-</html>
+<?php
+    require 'includes/footer.php'
+
+?>
